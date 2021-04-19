@@ -1,0 +1,241 @@
+/* Estilos da pagina index.html */
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a,
+label {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "VALORANT";
+    src: url("./Valorant.ttf");
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+
+/* Header */
+
+.menu-color {
+    background-color: #111111;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu-logo img {
+    width: 120px;
+}
+
+.menu-nav ul {
+    font-family: "VALORANT";
+    display: flex;
+}
+
+.menu-nav a {
+    padding-left: 30px;
+    color: white;
+}
+
+.img-header {
+    width: 100%;
+    height: 100%;
+    min-height: 1020px;
+    background: url(../valorant_jett_duotoned.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.img-header h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container {
+    background: #ece8e1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container ul {
+    font-weight: 700;
+    width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.container ul img {
+    height: 720px;
+}
+
+.container h1 {
+    font-family: "VALORANT";
+    font-weight: 800;
+    font-size: 45px;
+    padding-top: 80px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+.videos-container {
+    background-color: #f24352;
+    padding-bottom: 80px;
+}
+
+.videos-container h2 {
+    font-family: "VALORANT";
+    font-weight: 800;
+    font-size: 45px;
+    padding-top: 80px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+.video-yoru {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Estilos da pagina contato.html */
+
+.contato-container {
+    background-color: #f24352;
+}
+
+.contato-container h1 {
+    font-family: "VALORANT";
+    font-weight: 800;
+    font-size: 45px;
+    padding-top: 80px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+.contato-container form {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 560px;
+}
+
+.contato-container label {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    line-height: 25px;
+}
+
+.contato-container input {
+    display: block;
+    width: 100%;
+    border: 4px solid #fff;
+    background: none;
+    color: #000;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.contato-container textarea {
+    display: block;
+    width: 100%;
+    border: 4px solid #fff;
+    background: none;
+    color: #000000;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contato-container button {
+    padding: 20px 40px;
+    background: #fff;
+    color: #111;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contato-container button:hover {
+    background: #111;
+    color: white;
+}
+
+.endereco-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.endereco-container p {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.endereco-container h2 {
+    font-family: "VALORANT";
+    font-weight: 800;
+    font-size: 45px;
+    padding-top: 80px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 14px;
+    height: 80px;
+}

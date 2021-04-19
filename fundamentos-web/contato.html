@@ -5,41 +5,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
     <title>Contato</title>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="contato.html">Contato</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="menu-color">
+        <div class="menu">
+            <div class="menu-logo">
+                <img src="./assets/vectorpaint.svg" alt="Valorant Logo" />
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <form action="">
-        <label for="Nome">Nome</label>
-        <input type="text" id="Nome" />
-        <br />
-        <br />
-        <label for="Email">Email</label>
-        <input type="text" id="Email" required />
-        <br />
-        <br />
-        <label>Assunto</label>
-        <textarea name="Assunto" cols="30" rows="5" required></textarea>
-        <br />
-        <br />
-        <button type="submit">Enviar</button>
-    </form>
+    <section class="contato-container">
+        <h1>Contato</h1>
+        <form action="">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" />
+            <br />
+            <br />
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" required />
+            <br />
+            <br />
+            <label>Assunto:</label>
+            <textarea name="Assunto" cols="30" rows="5" required></textarea>
+            <br />
+            <br />
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-    <h2>Endereço</h2>
-    <p>Nowhere Avenue 430</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19617924.088226676!2d0!3d-72.53580968673435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1spt-BR!2sbr!4v1618583981069!5m2!1spt-BR!2sbr"
-        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+    <section class="endereco-container">
+        <h2>Endereco</h2>
+        <p>Nowhere Avenue 430</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19617924.088226676!2d0!3d-72.53580968673435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1spt-BR!2sbr!4v1618583981069!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados - 2021</p>
+    </footer>
 </body>
 
 </html>
