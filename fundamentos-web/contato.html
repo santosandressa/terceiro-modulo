@@ -39,16 +39,17 @@
             <input type="text" id="email" onkeyup='validaEmail()' required>
             <div id="txtEmail" class="validation"></div>
             <label>Assunto:</label>
-            <textarea name="assunto " cols="30 " rows="5 " required></textarea>
-            <button type="submit ">Enviar</button>
+            <textarea id="assunto" name="assunto " cols="30 " rows="5 " onkeyup='validaAssunto()'></textarea>
+            <div id="txtAssunto" class="validation"></div>
+            <button type="submit" onclick='enviar()'>Enviar</button>
         </form>
     </section>
 
     <section class="endereco-container ">
         <h2>Endereco</h2>
         <p>Nowhere Avenue 430</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19617924.088226676!2d0!3d-72.53580968673435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1spt-BR!2sbr!4v1618583981069!5m2!1spt-BR!2sbr "
-            width="600 " height="450 " style="border: 0 " allowfullscreen=" " loading="lazy "></iframe>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19617924.088226676!2d0!3d-72.53580968673435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1spt-BR!2sbr!4v1618583981069!5m2!1spt-BR!2sbr "
+            width="600 " height="450 " style="border: 0 " allowfullscreen=" " loading="lazy " onmousemove="mapaZoom()" onmouseout="mapaZoomOut()"></iframe>
     </section>
 
     <footer>
